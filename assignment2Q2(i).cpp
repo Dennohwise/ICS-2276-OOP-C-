@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+//Class peron definition 
 class Person {
 public:
     Person(const std::string& name, int age)
@@ -14,6 +15,7 @@ private:
     int age_;
 };
 
+// Derived class Student definition 
 class Student : public Person {
 public:
     Student(const std::string& name, int age,
